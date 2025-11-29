@@ -7,7 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "homepage": "https://ACO1S.github.io/appdev1-final-exam/"
+
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.11.0",
